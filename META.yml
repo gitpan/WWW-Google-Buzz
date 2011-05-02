@@ -19,7 +19,7 @@ name: WWW-Google-Buzz
 provides:
   WWW::Google::Buzz:
     file: lib/WWW/Google/Buzz.pm
-    version: 0.02
+    version: 0.03
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03

@@ -16,11 +16,11 @@ WWW::Google::Buzz - Interface to Google Buzz API.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 Readonly my $API_VERSION => 'v1';
 Readonly my $BASE_URL    => "https://www.googleapis.com/buzz/$API_VERSION/activities";
 
@@ -272,8 +272,13 @@ See http://dev.perl.org/licenses/ for more information.
 By using the Google Buzz API, you agree to  the  Google Buzz API Terms of Service and agree to
 abide by the Google Buzz Developer Policies.
 
-http://code.google.com/apis/buzz/terms.html
-http://code.google.com/apis/buzz/policies.html
+=over 2
+
+=item * L<http://code.google.com/apis/buzz/terms.html>
+
+=item * L<http://code.google.com/apis/buzz/policies.html>
+
+=back
 
 =head1 DISCLAIMER
 
