@@ -16,11 +16,11 @@ WWW::Google::Buzz - Interface to Google Buzz API.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 Readonly my $API_VERSION => 'v1';
 Readonly my $BASE_URL    => "https://www.googleapis.com/buzz/$API_VERSION/activities";
 
@@ -29,8 +29,9 @@ Readonly my $BASE_URL    => "https://www.googleapis.com/buzz/$API_VERSION/activi
 This module is  intended for anyone who wants to write applications that can interact with the
 Google  Buzz  API.  Google  Buzz  is  a tool for sharing updates, photos, videos and more, and
 participating in conversations about things which is interesting.This can be used to create to
-create,update and comment on Google Buzz activities programmatically.Courtesy limit is 1000000
-queries per day. Currently it supports version v1 but not *ALL* of its feature.
+search activities & public activities of any Google Buzz user programmatically.However I would
+be adding the ability to create, update and add  comment  very soon. Courtesy limit is 1000000
+queries per day. Currently it supports version v1.
 
 IMPORTANT:  The  version  v1  of the Google Buzz API is in Labs, and its features might change
 unexpectedly until it graduates.
@@ -273,8 +274,6 @@ abide by the Google Buzz Developer Policies.
 
 http://code.google.com/apis/buzz/terms.html
 http://code.google.com/apis/buzz/policies.html
-
-
 
 =head1 DISCLAIMER
 
