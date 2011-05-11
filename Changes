@@ -1,5 +1,8 @@
 Revision history for WWW-Google-Buzz
 
+0.04    Wed May 11 10:17:34 2011
+        - Removed duplicate lines from the README.
+
 0.03    Mon May 02 14:22:10 2011
         - Minor changes to the pod for the title "LICENSE AND COPYRIGHT".
 
