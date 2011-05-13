@@ -1,5 +1,8 @@
 Revision history for WWW-Google-Buzz
 
+0.05    Fri May 13 18:03:22 2011
+        - Fixed typo in the CONSTRUCTOR section of the pod.
+
 0.04    Wed May 11 10:17:34 2011
         - Removed duplicate lines from the README.
 
