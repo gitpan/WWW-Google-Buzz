@@ -1,5 +1,9 @@
 Revision history for WWW-Google-Buzz
 
+0.06    Thu May 19 10:42:00 2011
+        - Updated DESCRIPTION in the pod.
+        - Added TODO list.
+
 0.05    Fri May 13 18:03:22 2011
         - Fixed typo in the CONSTRUCTOR section of the pod.
 

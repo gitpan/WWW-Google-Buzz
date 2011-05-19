@@ -16,11 +16,11 @@ WWW::Google::Buzz - Interface to Google Buzz API.
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =cut
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 Readonly my $API_VERSION => 'v1';
 Readonly my $BASE_URL    => "https://www.googleapis.com/buzz/$API_VERSION/activities";
 
@@ -28,10 +28,9 @@ Readonly my $BASE_URL    => "https://www.googleapis.com/buzz/$API_VERSION/activi
 
 This module is  intended for anyone who wants to write applications that can interact with the
 Google  Buzz  API.  Google  Buzz  is  a tool for sharing updates, photos, videos and more, and
-participating in conversations about things which is interesting.This can be used to create to
-search activities & public activities of any Google Buzz user programmatically.However I would
-be adding the ability to create, update and add  comment  very soon. Courtesy limit is 1000000
-queries per day. Currently it supports version v1.
+participating  in conversations about things which are interesting. This can be used to search
+activities and public activities of  any Google  Buzz user programmatically. Courtesy limit is
+1_000_000 queries per day. Currently it supports version v1.
 
 IMPORTANT:  The  version  v1  of the Google Buzz API is in Labs, and its features might change
 unexpectedly until it graduates.
@@ -230,6 +229,86 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 Please report any bugs or feature requests to C<bug-www-google-buzz at rt.cpan.org> or through
 the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-Google-Buzz>. I will
 be notified & then you'll automatically be notified of progress on your bug as I make changes.
+
+=head1 TODO
+
+=over 40
+
+=item * Search user personal feed.
+
+=item * Search user consumption feed.
+
+=item * Search user comments feed.
+
+=item * Search user liked feed.
+
+=item * Create/Read/Update/Delete an activity.
+
+=item * Reshare an activity.
+
+=item * Like/Unlike an activity.
+
+=item * Mute/Unmute an activity.
+
+=item * Unmute an activity.
+
+=item * Report an activity as spam.
+
+=item * Create/Read a private activity.
+
+=item * Get related links for an activity.
+
+=item * Article/Photo/Video attachment.
+
+=item * Create/Read/Update/Delete a comment.
+
+=item * Search for people.
+
+=item * Search for people by topic.
+
+=item * Get user profile.
+
+=item * Get a user's followers.
+
+=item * Get people followed by a user.
+
+=item * Start following a user.
+
+=item * Stop following a user.
+
+=item * Block/Unblock a user.
+
+=item * Get a user's groups.
+
+=item * Get a group.
+
+=item * Create/Rename a group.
+
+=item * Get people in a group.
+
+=item * Add a person to a group.
+
+=item * Remove a person from a group.
+
+=item * Get a user's albums.
+
+=item * Get an album.
+
+=item * Create/Delete an album.
+
+=item * List the photos in an album.
+
+=item * List recent photos by a user.
+
+=item * Upload a photo to an album.
+
+=item * Get photo metadata.
+
+=item * Delete a photo.
+
+=item * Get count of link shares.
+
+=back
 
 =head1 SUPPORT
 
