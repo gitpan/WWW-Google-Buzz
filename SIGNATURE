@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 6f1169421a05615c7042f2c9ae8fc6ed3221f0ba Build.PL
-SHA1 c7e94b5a8f1d33c886c02d712b4fc7d6be7fa05c Changes
+SHA1 e4ed4d137ad16cd567bbeac82f969aeb9f70ee4a Build.PL
+SHA1 196dce042d2a3c0fed2738de7ca04c4dbba8fb0c Changes
 SHA1 5bfa4fd8db9a64f1369b45c808988a69f609da1a MANIFEST
 SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
-SHA1 852ba58def1b308ca076b38fe93fcde01ea41c10 META.yml
-SHA1 dda622b373f3ebb70dd79174e47aecc17a0a09a9 Makefile.PL
+SHA1 c591c1e01e6c627e7166f925041febf91aef4308 META.yml
+SHA1 1b36903618d63634a71e192ed835a5d6772927b7 Makefile.PL
 SHA1 b7248688235626f6ed8e806f755cf857d7836c9d README
-SHA1 0d83e839ce820a639614fa825a88e53fef31fb21 lib/WWW/Google/Buzz.pm
+SHA1 e865210360e61b55b94c8e1935f15d6d5f7b048d lib/WWW/Google/Buzz.pm
 SHA1 6f73a477c295eaf9d09144bdb55607340b0f5fef t/00-load.t
 SHA1 127089e6fd68721571980ea50b3edd1ea1c3c19a t/01-unit-test.t
 SHA1 275cb668f13641380151f5e666cf86faaaf2ac37 t/02-unit-test.t
@@ -31,11 +31,11 @@ SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.14 (MingW32)
 
-iQEcBAEBAgAGBQJN1OcWAAoJEPYcXBXhRYOhw4AH/imlT4OJIe2hEdgpTPkv1LT9
-MunTY2NkmKbGfPK+OAbfvcoe10udpgyhwus2jx+6w3r/6JJFMq7Nq9MhEAiqlpbX
-p8nmj23j0g5iSjS/eYlgjy+HcmdojWVaUQNiAcGk7OrMS/p4GPJhGMhi/JFXHjUy
-Bcejf5yeCm/Mhb/oMDDmyjixGo+PDDHmuud1rE18lMa5r4i18PXIlUVdtXbIo/iK
-fKYNQ/MGlwPwBd/LMcBAvsjeePejSpSFs9lrSd/ogyiVzOO165yo3kS2A1byICdR
-/Q94VDh/UoNXVjQIH5tl7oSk9fcHs8Ozp7K/gOqUqDocF9QK15G5rTlo+cjW2ak=
-=JEuf
+iQEcBAEBAgAGBQJOP8s4AAoJEPYcXBXhRYOhdmMIAJRYc4AlfBcH8Ojd3klueZHa
+xBlzpnxz+d+QTUy9ybw56GSgqe8039Zv44cciFHRmUw52ks75fcdhb6xiawa3RBm
+WCpGTonQwtEub1xjAbWzv0fheWFaPscFjFB/oONGEwXA40oQf56EgZYhv/BpSDZ/
+fnSwGhMONMktHNwvhiBknoiMs3v5UNocM6Uw+E2zw8465NStW8D8vakTL87tbE4f
+3KIxn2jDoxECno+XuBcKiw7UpbjGAy2DY+9n34klSQyjVF1A+m7vGmuXWM2Elc/C
+4IBFzD1GriCSEhcYO/nWS7tAv6MIfzY0o4PJHzo6DHrw5vNYURC2FIH5BHENlvo=
+=3bWJ
 -----END PGP SIGNATURE-----

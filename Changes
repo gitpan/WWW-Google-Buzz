@@ -1,5 +1,9 @@
 Revision history for WWW-Google-Buzz
 
+0.07    Mon Aug 08 12:40:11 2011
+        - Made Readonly v1.03 as minimum requirement.
+        - Prepared the distribution using the Module::Signature v0.68.
+
 0.06    Thu May 19 10:42:00 2011
         - Updated DESCRIPTION in the pod.
         - Added TODO list.

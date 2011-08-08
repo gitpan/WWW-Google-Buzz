@@ -16,11 +16,11 @@ WWW::Google::Buzz - Interface to Google Buzz API.
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 Readonly my $API_VERSION => 'v1';
 Readonly my $BASE_URL    => "https://www.googleapis.com/buzz/$API_VERSION/activities";
 
